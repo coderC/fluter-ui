@@ -1,0 +1,23 @@
+{
+  "id": "2418434",
+  "name": "fluter-ui",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "10139936",
+      "name": "view",
+      "font_class": "view",
+      "unicode": "e69e",
+      "unicode_decimal": 59038
+    },
+    {
+      "icon_id": "11275207",
+      "name": "circle-close",
+      "font_class": "circle-close",
+      "unicode": "e8c6",
+      "unicode_decimal": 59590
+    }
+  ]
+}

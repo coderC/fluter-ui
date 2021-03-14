@@ -74,25 +74,61 @@
         <F-button @click="visible=false">取消</F-button>
       </template>
     </F-dialog> -->
+    <!-- <F-input placeholder='请输入用户名' type='password' name='username' disabled></F-input> -->
+    <!-- <F-input placeholder='请输入用户名' v-model="username" clearable></F-input>
+    <F-input placeholder='请输入用户名' v-model="username" type='password' show-password></F-input> -->
+    <!-- <F-switch v-model="active"></F-switch> -->
+    <!-- <F-switch v-model="active" active-color='green' inactive-color='red' name='username'></F-switch> -->
+    <!-- <F-radio label='1' v-model="gender">男</F-radio>
+    <F-radio label='0' v-model="gender">女</F-radio>
+    <F-radio label='1' v-model="gender"></F-radio>
+    <F-radio label='0' v-model="gender"></F-radio> -->
+    <!-- <F-radio-group v-model="gender">
+      <F-radio label='1'>男</F-radio>
+      <F-radio label='0'>女</F-radio>
+    </F-radio-group> -->
+    <!-- <F-checkbox v-model="active">是否选中</F-checkbox> -->
+    <!-- <F-checkbox-group v-model="hobby">
+      <F-checkbox label='抽烟'></F-checkbox>
+      <F-checkbox label='喝酒'></F-checkbox>
+      <F-checkbox label='烫头'></F-checkbox>
+    </F-checkbox-group> -->
+    <!-- <F-form :model='model' label-width='80px'>
+      <F-form-item label='用户名'>
+        <F-input placeholder='请输入用户名' v-model="model.username"></F-input>
+      </F-form-item>
+      <F-form-item label='选择'>
+        <F-switch v-model="model.active"></F-switch>
+      </F-form-item>
+    </F-form> -->
+    <!-- <F-button type='primary'>按钮</F-button> -->
   </div>
 </template>
 
 <script>
 
 export default {
-  data () {
-    return {
-      visible: false
-    }
-  }
+//   data () {
+//     return {
+//       visible: false,
+//       username: '123',
+//       active: false,
+//       gender: '1',
+//       hobby: ['抽烟'],
+//       model: {
+//         username: '',
+//         active: true
+//       }
+//     }
+//   }
 }
 </script>
 
 <style lang="scss" scoped>
-.row {
-  margin: 20px;
-  .F-button {
-    margin: 20px;
-  }
-}
+// .row {
+//   margin: 20px;
+//   .F-button {
+//     margin: 20px;
+//   }
+// }
 </style>
